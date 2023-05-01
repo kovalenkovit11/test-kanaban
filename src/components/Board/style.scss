@@ -1,0 +1,84 @@
+.container {
+  margin: 10px auto;
+  max-width: 1280px;
+  .group-input {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    input {
+      width: 100%;
+      border-radius: 10px;
+      border: none;
+      background-color: #e0e0e0;
+      padding: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+    button {
+      width: 120px;
+      height: 40px;
+      margin-left: 10px;
+      background-color: #fff;
+      outline: none;
+      border: 1px solid black;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+    button:hover {
+      background-color: #3e3e3e;
+      border: 1px solid #fff;
+      color: #fff;
+    }
+  }
+  .container {
+    margin-top: 40px;
+  }
+  .items {
+    display: flex;
+    max-width: 1280px;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: start;
+  }
+  .item {
+    font-weight: bold;
+    height: 100vh;
+  }
+  .areas {
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    min-height: 600px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #e0e0e0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    .draggble-items {
+      font-weight: normal;
+      padding: 10px;
+      margin: 10px auto;
+      border-radius: 14px;
+      width: 90%;
+      height: 90%;
+      background-color: #fff;
+      border: 1px solid #000;
+      -webkit-border-radius: 14px;
+      -moz-border-radius: 14px;
+      -ms-border-radius: 14px;
+      -o-border-radius: 14px;
+    }
+  }
+}
+.story-items {
+  height: 100%;
+}
